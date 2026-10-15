@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fl-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080808" />
+      <stop offset="50%" stop-color="#0f110c" />
+      <stop offset="100%" stop-color="#050505" />
+    </linearGradient>
+    <linearGradient id="fl-lime" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4ff1a" />
+      <stop offset="100%" stop-color="#a3e600" />
+    </linearGradient>
+    <filter id="fl-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="fl-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#fl-bg)"/>
+
+  <!-- Subtle Ambient Glow -->
+  <circle cx="150" cy="150" r="220" fill="#ccff00" fill-opacity="0.04" filter="url(#fl-glow)"/>
+  <circle cx="1050" cy="500" r="250" fill="#ccff00" fill-opacity="0.03" filter="url(#fl-glow)"/>
+
+  <!-- Top App Navigation Bar -->
+  <rect x="40" y="30" width="1120" height="70" rx="16" fill="#111111" stroke="#222222" stroke-width="1.5" />
+  
+  <!-- FitLog Logo & Brand -->
+  <circle cx="75" cy="65" r="20" fill="#1a2e05" />
+  <circle cx="75" cy="65" r="12" fill="none" stroke="#ccff00" stroke-width="2.5" />
+  <rect x="67" y="63.5" width="16" height="3" fill="#ccff00" />
+  
+  <text x="110" y="72" font-family="'Impact', 'Arial Black', sans-serif" font-weight="900" font-size="24" letter-spacing="2" fill="#ffffff">FITLOG</text>
+  <rect x="220" y="52" width="75" height="26" rx="13" fill="#1a2e05"/>
+  <text x="257" y="69" font-family="system-ui, sans-serif" font-size="11" font-weight="800" text-anchor="middle" fill="#ccff00">PRO V1.0</text>
+
+  <!-- Nav links -->
+  <rect x="800" y="47" width="100" height="36" rx="18" fill="#1a2e05" />
+  <text x="850" y="70" font-family="system-ui, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#ccff00">Workouts</text>
+
+  <rect x="915" y="47" width="90" height="36" rx="18" fill="#1a1a1a" />
+  <text x="960" y="70" font-family="system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#9ca3af">My Plan</text>
+
+  <rect x="1020" y="47" width="120" height="36" rx="18" fill="url(#fl-lime)" />
+  <text x="1080" y="70" font-family="system-ui, sans-serif" font-size="13" font-weight="900" text-anchor="middle" fill="#000000">12 LIFTS</text>
+
+  <!-- Hero Highlight Section -->
+  <rect x="40" y="125" width="1120" height="205" rx="20" fill="#111111" stroke="#222222" stroke-width="1.5" filter="url(#fl-shadow)"/>
+  
+  <text x="80" y="170" font-family="system-ui, sans-serif" font-weight="800" font-size="12" letter-spacing="3" fill="#ccff00">WORKOUT COMPANION &amp; ROUTINE PLANNER</text>
+  <text x="80" y="215" font-family="'Impact', 'Arial Black', sans-serif" font-weight="900" font-size="40" letter-spacing="1" fill="#ffffff">TRAIN WITH INTENT. LOG EVERY SET.</text>
+  <text x="80" y="255" font-family="system-ui, sans-serif" font-size="15" fill="#9ca3af">No-nonsense gym tracker: select compound exercises, organize daily plans, and track caloric burn &amp; reps.</text>
+
+  <!-- Quick Category Pills -->
+  <rect x="80" y="280" width="85" height="30" rx="15" fill="#1a2e05" stroke="#ccff00" stroke-width="1"/>
+  <text x="122" y="300" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#ccff00">Chest</text>
+
+  <rect x="175" y="280" width="80" height="30" rx="15" fill="#1e1e1e"/>
+  <text x="215" y="300" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#d1d5db">Back</text>
+
+  <rect x="265" y="280" width="80" height="30" rx="15" fill="#1e1e1e"/>
+  <text x="305" y="300" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#d1d5db">Legs</text>
+
+  <rect x="355" y="280" width="95" height="30" rx="15" fill="#1e1e1e"/>
+  <text x="402" y="300" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#d1d5db">Shoulders</text>
+
+  <rect x="460" y="280" width="75" height="30" rx="15" fill="#1e1e1e"/>
+  <text x="497" y="300" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#d1d5db">Core</text>
+
+  <!-- Big Hero Metrics Right Box -->
+  <rect x="860" y="145" width="260" height="165" rx="16" fill="#161616" stroke="#262626" stroke-width="1"/>
+  <text x="890" y="195" font-family="'Impact', 'Arial Black', sans-serif" font-weight="900" font-size="42" fill="#ccff00">12+ LIFTS</text>
+  <text x="890" y="225" font-family="system-ui, sans-serif" font-size="14" fill="#d1d5db">Full Muscle Group Coverage</text>
+  <text x="890" y="255" font-family="system-ui, sans-serif" font-size="13" fill="#9ca3af">⚡ Calorie &amp; Duration Tracker</text>
+  <text x="890" y="280" font-family="system-ui, sans-serif" font-size="13" fill="#9ca3af">🎯 Dynamic Sorting &amp; Filters</text>
+
+  <!-- Exercise Cards Row -->
+  <!-- Exercise 1: Bench Press -->
+  <g transform="translate(40, 355)" filter="url(#fl-shadow)">
+    <rect width="350" height="280" rx="16" fill="#141414" stroke="#242424" stroke-width="1.5"/>
+    <rect x="15" y="15" width="320" height="135" rx="12" fill="#1c1c1c" />
+    <circle cx="175" cy="80" r="35" fill="#1a2e05" stroke="#ccff00" stroke-width="1"/>
+    <text x="175" y="90" font-family="system-ui, sans-serif" font-size="30" text-anchor="middle">🏋️</text>
+    <rect x="260" y="25" width="65" height="22" rx="11" fill="#000000" fill-opacity="0.8"/>
+    <text x="292" y="40" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle" fill="#ffffff">ADVANCED</text>
+    
+    <text x="25" y="180" font-family="system-ui, sans-serif" font-weight="800" font-size="18" fill="#ffffff">Barbell Bench Press</text>
+    <text x="25" y="202" font-family="system-ui, sans-serif" font-size="13" fill="#9ca3af">Chest • Arms • Power</text>
+
+    <line x1="25" y1="225" x2="325" y2="225" stroke="#222222" stroke-width="1"/>
+    <text x="25" y="255" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#ccff00">⏱ 25 min</text>
+    <text x="130" y="255" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#f87171">🔥 180 kcal</text>
+    <text x="250" y="255" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#facc15">★ 4.8 Rating</text>
+  </g>
+
+  <!-- Exercise 2: Back Squat -->
+  <g transform="translate(425, 355)" filter="url(#fl-shadow)">
+    <rect width="350" height="280" rx="16" fill="#141414" stroke="#242424" stroke-width="1.5"/>
+    <rect x="15" y="15" width="320" height="135" rx="12" fill="#1c1c1c" />
+    <circle cx="175" cy="80" r="35" fill="#1a2e05" stroke="#ccff00" stroke-width="1"/>
+    <text x="175" y="90" font-family="system-ui, sans-serif" font-size="30" text-anchor="middle">🦵</text>
+    <rect x="260" y="25" width="65" height="22" rx="11" fill="#000000" fill-opacity="0.8"/>
+    <text x="292" y="40" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle" fill="#ffffff">ADVANCED</text>
+    
+    <text x="25" y="180" font-family="system-ui, sans-serif" font-weight="800" font-size="18" fill="#ffffff">Conventional Back Squat</text>
+    <text x="25" y="202" font-family="system-ui, sans-serif" font-size="13" fill="#9ca3af">Legs • Glutes • Core</text>
+
+    <line x1="25" y1="225" x2="325" y2="225" stroke="#222222" stroke-width="1"/>
+    <text x="25" y="255" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#ccff00">⏱ 30 min</text>
+    <text x="130" y="255" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#f87171">🔥 240 kcal</text>
+    <text x="250" y="255" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#facc15">★ 4.9 Rating</text>
+  </g>
+
+  <!-- Exercise 3: Deadlift -->
+  <g transform="translate(810, 355)" filter="url(#fl-shadow)">
+    <rect width="350" height="280" rx="16" fill="#141414" stroke="#242424" stroke-width="1.5"/>
+    <rect x="15" y="15" width="320" height="135" rx="12" fill="#1c1c1c" />
+    <circle cx="175" cy="80" r="35" fill="#1a2e05" stroke="#ccff00" stroke-width="1"/>
+    <text x="175" y="90" font-family="system-ui, sans-serif" font-size="30" text-anchor="middle">⚡</text>
+    <rect x="250" y="25" width="75" height="22" rx="11" fill="#000000" fill-opacity="0.8"/>
+    <text x="287" y="40" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle" fill="#ffffff">POWERLIFT</text>
+    
+    <text x="25" y="180" font-family="system-ui, sans-serif" font-weight="800" font-size="18" fill="#ffffff">Barbell Deadlift</text>
+    <text x="25" y="202" font-family="system-ui, sans-serif" font-size="13" fill="#9ca3af">Posterior Chain • Grip</text>
+
+    <line x1="25" y1="225" x2="325" y2="225" stroke="#222222" stroke-width="1"/>
+    <text x="25" y="255" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#ccff00">⏱ 28 min</text>
+    <text x="130" y="255" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#f87171">🔥 260 kcal</text>
+    <text x="250" y="255" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#facc15">★ 4.9 Rating</text>
+  </g>
+</svg>

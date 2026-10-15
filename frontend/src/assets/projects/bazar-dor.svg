@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bd-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1410" />
+      <stop offset="50%" stop-color="#0d241a" />
+      <stop offset="100%" stop-color="#07120e" />
+    </linearGradient>
+    <linearGradient id="bd-green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00a859" />
+      <stop offset="100%" stop-color="#006b38" />
+    </linearGradient>
+    <linearGradient id="bd-card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#122b20" />
+      <stop offset="100%" stop-color="#0d1f17" />
+    </linearGradient>
+    <filter id="bd-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="675" fill="url(#bd-bg)"/>
+
+  <!-- Top App Navigation Bar -->
+  <rect x="40" y="30" width="1120" height="70" rx="16" fill="#0f261c" stroke="#1d4734" stroke-width="1.5" />
+  
+  <!-- Logo & App Name -->
+  <rect x="65" y="45" width="40" height="40" rx="10" fill="url(#bd-green)" />
+  <text x="85" y="71" font-family="system-ui, sans-serif" font-size="22" text-anchor="middle" fill="#ffffff">🛒</text>
+  <text x="120" y="70" font-family="system-ui, sans-serif" font-weight="800" font-size="22" fill="#ffffff">বাজার দর</text>
+  <text x="220" y="70" font-family="system-ui, sans-serif" font-size="14" fill="#6ee7b7">| Daily Grocery Market Tracker</text>
+
+  <!-- Nav actions -->
+  <rect x="880" y="47" width="120" height="36" rx="18" fill="#143d2c" stroke="#235c44" stroke-width="1" />
+  <text x="940" y="70" font-family="system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#a7f3d0">সব পণ্য</text>
+  
+  <rect x="1015" y="47" width="120" height="36" rx="18" fill="url(#bd-green)" />
+  <text x="1075" y="70" font-family="system-ui, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#ffffff">Live Ver. 2026</text>
+
+  <!-- Market Live Ticker Bar -->
+  <rect x="40" y="115" width="1120" height="40" rx="10" fill="#0c1d15" stroke="#163828" stroke-width="1"/>
+  <rect x="55" y="123" width="75" height="24" rx="12" fill="#ef4444" fill-opacity="0.2"/>
+  <text x="92" y="139" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#f87171">LIVE TICKER</text>
+  
+  <text x="150" y="140" font-family="system-ui, sans-serif" font-size="13" fill="#cbd5e1">🍚 মিনিকেট চাল ৯৯৳ (▼ ২.৯%)  •  🫘 মসুর ডাল ১৪২৳ (▲ ২.৯%)  •  🛢️ সয়াবিন তেল ১৭৫৳  •  🥔 আলু ৩০৳ (▼ ৬.২%)  •  🐟 ইলিশ ১৮৫০৳</text>
+
+  <!-- Hero Highlight Banner -->
+  <rect x="40" y="170" width="1120" height="170" rx="20" fill="url(#bd-card-grad)" stroke="#1d4734" stroke-width="1" filter="url(#bd-shadow)"/>
+  
+  <text x="80" y="215" font-family="system-ui, sans-serif" font-weight="700" font-size="13" letter-spacing="2" fill="#34d399">📅 আজকের বাজারের সর্বশেষ আপডেট</text>
+  <text x="80" y="260" font-family="system-ui, sans-serif" font-weight="900" font-size="36" fill="#ffffff">নিত্যপ্রয়োজনীয় পণ্যের বাজার মূল্য</text>
+  <text x="80" y="295" font-family="system-ui, sans-serif" font-size="16" fill="#94a3b8">সহজেই জানুন প্রতিদিনের হালনাগাদ দাম, পণ্যের তুলনামূলক তালিকা ও বাজারের তথ্য।</text>
+  
+  <!-- Hero Right Stats Box -->
+  <rect x="880" y="195" width="240" height="120" rx="16" fill="#0c1f17" stroke="#1d4734" stroke-width="1"/>
+  <text x="910" y="235" font-family="system-ui, sans-serif" font-weight="800" font-size="32" fill="#10b981">৮+ বিভাগ</text>
+  <text x="910" y="265" font-family="system-ui, sans-serif" font-size="14" fill="#cbd5e1">চাল, ডাল, তেল, সবজি, মাছ, মাংস</text>
+  <text x="910" y="290" font-family="system-ui, sans-serif" font-size="12" fill="#34d399">● সম্পূর্ণ ডায়নামিক ও লাইভ</text>
+
+  <!-- Commodity Cards Grid -->
+  <!-- Card 1: Chal -->
+  <g transform="translate(40, 360)" filter="url(#bd-shadow)">
+    <rect width="260" height="275" rx="16" fill="#0d241a" stroke="#1b4632" stroke-width="1.2"/>
+    <rect x="15" y="15" width="230" height="120" rx="12" fill="#071710" />
+    <text x="130" y="85" font-family="system-ui, sans-serif" font-size="54" text-anchor="middle">🍚</text>
+    <rect x="175" y="25" width="60" height="22" rx="11" fill="#10b981" fill-opacity="0.2"/>
+    <text x="205" y="40" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#34d399">▲ ২.১%</text>
+    <text x="20" y="170" font-family="system-ui, sans-serif" font-weight="700" font-size="18" fill="#ffffff">স্বর্ণমাছি চাল</text>
+    <text x="20" y="195" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8">প্যাকেটজাত ও খোলা</text>
+    <text x="20" y="235" font-family="system-ui, sans-serif" font-weight="900" font-size="24" fill="#34d399">১৪৮ <tspan font-size="14" font-weight="normal" fill="#94a3b8">টাকা/কেজি</tspan></text>
+  </g>
+
+  <!-- Card 2: Dal -->
+  <g transform="translate(325, 360)" filter="url(#bd-shadow)">
+    <rect width="260" height="275" rx="16" fill="#0d241a" stroke="#1b4632" stroke-width="1.2"/>
+    <rect x="15" y="15" width="230" height="120" rx="12" fill="#071710" />
+    <text x="130" y="85" font-family="system-ui, sans-serif" font-size="54" text-anchor="middle">🫘</text>
+    <rect x="175" y="25" width="60" height="22" rx="11" fill="#10b981" fill-opacity="0.2"/>
+    <text x="205" y="40" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#34d399">▲ ২.৯%</text>
+    <text x="20" y="170" font-family="system-ui, sans-serif" font-weight="700" font-size="18" fill="#ffffff">দেশি মসুর ডাল</text>
+    <text x="20" y="195" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8">উচ্চমানের প্রোটিন সমৃদ্ধ</text>
+    <text x="20" y="235" font-family="system-ui, sans-serif" font-weight="900" font-size="24" fill="#34d399">১৪২ <tspan font-size="14" font-weight="normal" fill="#94a3b8">টাকা/কেজি</tspan></text>
+  </g>
+
+  <!-- Card 3: Tel -->
+  <g transform="translate(610, 360)" filter="url(#bd-shadow)">
+    <rect width="260" height="275" rx="16" fill="#0d241a" stroke="#1b4632" stroke-width="1.2"/>
+    <rect x="15" y="15" width="230" height="120" rx="12" fill="#071710" />
+    <text x="130" y="85" font-family="system-ui, sans-serif" font-size="54" text-anchor="middle">🛢️</text>
+    <rect x="175" y="25" width="60" height="22" rx="11" fill="#ef4444" fill-opacity="0.2"/>
+    <text x="205" y="40" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#f87171">▼ ২.৩%</text>
+    <text x="20" y="170" font-family="system-ui, sans-serif" font-weight="700" font-size="18" fill="#ffffff">বিশুদ্ধ সয়াবিন তেল</text>
+    <text x="20" y="195" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8">বোতলজাত ব্র্যান্ডেড</text>
+    <text x="20" y="235" font-family="system-ui, sans-serif" font-weight="900" font-size="24" fill="#34d399">১৭৫ <tspan font-size="14" font-weight="normal" fill="#94a3b8">টাকা/লিটার</tspan></text>
+  </g>
+
+  <!-- Card 4: Mach -->
+  <g transform="translate(895, 360)" filter="url(#bd-shadow)">
+    <rect width="265" height="275" rx="16" fill="#0d241a" stroke="#1b4632" stroke-width="1.2"/>
+    <rect x="15" y="15" width="235" height="120" rx="12" fill="#071710" />
+    <text x="132" y="85" font-family="system-ui, sans-serif" font-size="54" text-anchor="middle">🐟</text>
+    <rect x="180" y="25" width="60" height="22" rx="11" fill="#10b981" fill-opacity="0.2"/>
+    <text x="210" y="40" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#34d399">▲ ৪.৫%</text>
+    <text x="20" y="170" font-family="system-ui, sans-serif" font-weight="700" font-size="18" fill="#ffffff">তাজা রুই মাছ</text>
+    <text x="20" y="195" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8">মাঝারি ও বড় সাইজ</text>
+    <text x="20" y="235" font-family="system-ui, sans-serif" font-weight="900" font-size="24" fill="#34d399">৪৬০ <tspan font-size="14" font-weight="normal" fill="#94a3b8">টাকা/কেজি</tspan></text>
+  </g>
+</svg>

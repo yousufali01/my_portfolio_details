@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="av-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329" />
+      <stop offset="50%" stop-color="#142145" />
+      <stop offset="100%" stop-color="#080e1e" />
+    </linearGradient>
+    <linearGradient id="av-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <linearGradient id="av-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+    <filter id="av-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Base Circle -->
+  <circle cx="200" cy="200" r="190" fill="url(#av-bg)" stroke="url(#av-border)" stroke-width="4"/>
+  <circle cx="200" cy="200" r="172" fill="none" stroke="#1e293b" stroke-width="2" stroke-dasharray="8 6"/>
+
+  <!-- Subtle glow rings -->
+  <circle cx="200" cy="200" r="145" fill="#06b6d4" fill-opacity="0.06" filter="url(#av-glow)"/>
+
+  <!-- Code bracket watermark backdrop -->
+  <text x="80" y="225" font-family="'Courier New', monospace" font-size="110" font-weight="bold" fill="#1e3a5f" fill-opacity="0.4" text-anchor="middle">&lt;</text>
+  <text x="320" y="225" font-family="'Courier New', monospace" font-size="110" font-weight="bold" fill="#1e3a5f" fill-opacity="0.4" text-anchor="middle">/&gt;</text>
+
+  <!-- Stylized "YA" Monogram for Yousuf Ali -->
+  <text x="200" y="235" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="112" letter-spacing="-2" fill="url(#av-accent)" text-anchor="middle" filter="url(#av-glow)">YA</text>
+
+  <!-- Subtitle Tag -->
+  <rect x="110" y="275" width="180" height="28" rx="14" fill="#0e1b38" stroke="#06b6d4" stroke-width="1.2"/>
+  <text x="200" y="294" font-family="system-ui, sans-serif" font-size="12" font-weight="800" letter-spacing="2" fill="#38bdf8" text-anchor="middle">YOUSUF ALI</text>
+
+  <!-- Live Pulse Dot -->
+  <circle cx="310" cy="90" r="14" fill="#10b981" />
+  <circle cx="310" cy="90" r="20" fill="none" stroke="#10b981" stroke-width="2" stroke-opacity="0.6"/>
+</svg>
